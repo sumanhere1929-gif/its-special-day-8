@@ -40,8 +40,10 @@ section {
 
 .gallery img {
   width: 100%;
-  height: 110px;
+  height: 200px;
   object-fit: cover;
+  shape-margin: 0cap;
+  box-shadow: #e5e0dd;
   border-radius: 15px;
 }
 
