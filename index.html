@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Chocolate Day ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <span>🍫 Chocolate Day</span>
+</nav>
+
+<section class="hero">
+  <h1>Happy Chocolate Day ❤️</h1>
+  <p>You make my life sweeter every day.</p>
+</section>
+
+<section class="why">
+  <h2>Why You’re Sweeter</h2>
+  <div class="card">
+    <p>🍫 You melt my stress</p>
+    <p>💖 Your smile is my favorite flavor</p>
+    <p>🥰 Life feels better with you</p>
+  </div>
+</section>
+
+<section class="memories">
+  <h2>Memories 📸</h2>
+  <div class="gallery">
+    <img src="img1.jpg" onclick="popHearts(event)">
+    <img src="img2.jpg" onclick="popHearts(event)">
+    <img src="img3.jpg" onclick="popHearts(event)">
+  </div>
+</section>
+
+<section class="surprise">
+  <button onclick="showLove()">Tap for Sweetness 🍫💖</button>
+</section>
+
+<div id="sweetPopup" class="popup">
+  <div class="popup-content">
+    <img src="sweet.jpg">
+    <p id="typingText"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
