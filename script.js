@@ -20,7 +20,7 @@ function showLove() {
   popup.style.display = "flex";
   text.innerHTML = "";
 
-  const msg = "I Love You ❤️ More than chocolate… always 💕";
+  const msg = "I Love You ❤️ More than chocolate💕";
   let i = 0;
 
   const type = setInterval(()=>{
